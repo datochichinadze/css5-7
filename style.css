@@ -1,0 +1,1125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #0B0B0E;
+}
+
+
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+/* footer */
+
+
+.hedercontainer {
+    display: flex;
+    padding: 14px 200px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #003004;
+}
+
+
+.hederdiv {
+    display: flex;
+    width: 1040px;
+    height: 52px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.ancordiv {
+    display: flex;
+    gap: 16px;
+}
+
+
+
+.ancordiv a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.ancordiv a:hover {
+    color: #FF371A;
+}
+
+
+
+/* main */
+
+
+.miancontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+
+
+.miandiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 112px;
+    flex-wrap: wrap;
+}
+
+
+.mainoneClass {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+#the_box {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 600;
+    max-width: 500px;
+    width: 100%;
+}
+
+
+
+#Build_box {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 450px;
+    width: 100%;
+}
+
+
+.buttondiv {
+    display: flex;
+    gap: 16px;
+}
+
+
+.buttonstaylClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    width: 200px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background-color: #FF371A;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+.buttonstaylClass:hover {
+    color: #0B0B0E;
+}
+
+
+
+
+.buttonget {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    width: 200px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    border: 1px solid #2F2C33;
+    background-color: #0B0B0E;
+    cursor: pointer;
+}
+
+
+
+.buttonget:hover {
+    color: #FF371A;
+}
+
+
+
+#worlds_box {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+.imagesdiv {
+    display: flex;
+    gap: 32px;
+}
+
+
+
+/*  */
+
+
+
+.twopaddingdiv {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.mainClass {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+
+
+.CreateClassp P {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 64px;
+    font-weight: 600;
+    max-width: 800px;
+    width: 100%;
+}
+
+
+
+.paddingdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.divpadd {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    height: 381px;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #191919;
+}
+
+
+.decentralizedClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+
+
+.UnstoppableClass {
+    color: #797979;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 380px;
+    width: 100%;
+}
+
+
+
+/*  */
+
+
+
+.divpaddingtwo {
+    display: flex;
+    gap: 24px;
+    height: 178px;
+    padding: 16px;
+    align-items: center;
+    border-radius: 12px;
+    background-color: #191919;
+}
+
+
+
+.twopaddingp {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+
+.SwitchClass {
+    color: #797979;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 214px;
+    width: 100%;
+}
+
+
+
+/*  */
+
+
+
+.treepaddingdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+
+.paddtree {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 12px;
+    background-color: #191919;
+}
+
+
+.treepaddp {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 94px 16px 94px 0px;
+}
+
+
+.ProvideClass {
+    color: #797979;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    max-width: 302px;
+    width: 100%;
+}
+
+
+
+/*  */
+
+
+
+.forpadding {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: flex-start;
+    padding: 16px;
+    border-radius: 12px;
+    background-color: #191919;
+}
+
+
+
+.paddfor {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+
+.aiClass {
+    color: #797979;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+
+
+/*  */
+
+
+
+
+.twodivClass {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+
+
+.ptwoClass {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.WallClass {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+
+
+.HearClass {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+/*  */
+
+
+.oneallpadding {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+.allpaddone {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+
+
+.sienadiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 508px;
+    min-width: 360px;
+    padding: 32px;
+    border-radius: 12px;
+    background-color: #191919;
+}
+
+
+
+.starandtextClass {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.starparagrap {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 370px;
+    width: 100%;
+}
+
+
+
+.avatarandtext {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+.avatarandtext img {
+    vertical-align: middle;
+}
+
+
+
+.textdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.SiennapClass {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+.paragrapsiena {
+    color: #535862;
+
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+
+
+.aliahdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 508px;
+    min-width: 360px;
+    padding: 32px;
+    border-radius: 12px;
+    background-color: #191919;
+    height: 256px;
+}
+
+
+
+.Lily-Rosediv {
+    display: flex;
+    flex-direction: column;
+    gap: 59px;
+    width: 508px;
+    min-width: 360px;
+    padding: 32px;
+    border-radius: 12px;
+    background-color: #191919;
+    height: 256px;
+}
+
+
+
+/*  */
+
+
+
+.registermaindiv {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.registrationfuldiv {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 1040px;
+    padding: 64px;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #191919;
+}
+
+
+
+.registerparagrap {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.StillClass {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+
+
+.SignClass {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+
+.buttonandparagrapstyl {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+
+
+.iputandbuttonstaly {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+
+
+.emailstylClass {
+    display: flex;
+    padding: 12px 14px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid #7A7A7A;
+    background-color: #0B0B0E;
+}
+
+
+
+.emailstylClass:placeholder-shown {
+    color: #717680;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+
+.buttonstyless {
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 12px;
+    background-color: #FF371A;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.buttonstyless:hover {
+    color: #0B0B0E;
+}
+
+
+
+.careClass {
+    color: #7A7A7A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+
+.spanstyle {
+    color: #7A7A7A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration-line: underline;
+}
+
+
+
+/*  */
+
+
+
+.mainlastClass {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.lastmainp {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+
+.customersClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 800;
+    max-width: 500px;
+    width: 100%;
+}
+
+
+
+.PellentesqueClass {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 144.523%;
+    max-width: 450px;
+    width: 100%;
+}
+
+
+
+.lastpaddingall {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+
+
+.paddlastdiv {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    background-color: #191919;
+}
+
+
+
+.paragraplast {
+    display: flex;
+    gap: 8px;
+}
+
+
+
+.plandiv {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+
+
+
+.BasicClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.dolarClass {
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+
+.perClass {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.perClass p {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.viClass {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.PopularClass {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: flex;
+    padding: 5px 12px 6px 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #FF371A;
+}
+
+
+.VisitClass {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.divcenter {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.centerClass {
+    display: flex;
+    gap: 12px;
+}
+
+
+.centerClass p {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 260%;
+}
+
+
+
+.paddingcenterdiv {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.buttonstyle {
+    display: flex;
+    padding: 20px 108px 21px 108px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1.5px solid #FF371A;
+    background-color: #FF371A;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+.buttonstyle:hover {
+    color: #0B0B0E;
+}
+
+
+
+.buttonstyleClass {
+    display: flex;
+    padding: 20px 108px 21px 108px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1.5px solid #FF371A;
+    background-color: #191919;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+.buttonstyleClass:hover {
+    color: #FF371A;
+}
+
+
+
+
+/*  */
+
+
+
+
+.lastdivmain {
+    display: flex;
+    gap: 82px;
+    flex-wrap: wrap;
+}
+
+
+
+.divlast {
+    display: flex;
+    gap: 13px;
+}
+
+
+
+
+.lastparagrap {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+
+.AffordableClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+
+
+.laciniaClass {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 400px;
+    width: 100%;
+}
+
+
+
+/* footer */
+
+
+
+
+.footerClass {
+    display: flex;
+    width: 1440px;
+    padding: 0px 200px;
+    flex-direction: column;
+    gap: 64px;
+    margin-top: 125px;
+}
+
+
+.firstfooterClass {
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+
+
+.footerdiv {
+    display: flex;
+    width: 320px;
+    min-width: 32px;
+    max-width: 320px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+
+
+.designClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+
+
+.footertwoClass {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.foretcontainer {
+    display: flex;
+}
+
+
+
+.footerparagrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.bestClass {
+    color: #FFF;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+
+.reviewsClass {
+    color: #E9D7FE;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+
+
+.footerpadding {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+.boldancor {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+
+.boldancor:hover {
+    color: #FF371A;
+}
+
+
+.ancortext:hover {
+    color: #FF371A;
+}
+
+
+
+.ancortext {
+    color: #535862;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.newClass {
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    padding: 2px 6px;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.30);
+    background-color: rgba(255, 255, 255, 0.10);
+}
+
+
+/*  */
+
+
+
+.footerlast {
+    display: flex;
+    padding-bottom: 32px;
+    align-items: center;
+    gap: 32px;
+}
+
+
+.lastdivfooter {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+
+
+.copyClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+.socialconstyle {
+    display: flex;
+    gap: 24px;
+}
